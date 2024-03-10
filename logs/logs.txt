@@ -1,0 +1,134 @@
+10/3/2024, 19:48:04 - Test errors:
+10/3/2024, 19:48:04 - Error main: ReferenceError: agetPlytixToken is not defined
+10/3/2024, 19:52:40 - Error main: ReferenceError: agetPlytixToken is not defined
+10/3/2024, 19:52:41 - Error main: ReferenceError: agetPlytixToken is not defined
+10/3/2024, 19:56:41 - Error proccesing data: sapSku is not defined
+10/3/2024, 19:56:41 - Error main: ReferenceError: sapSku is not defined
+10/3/2024, 19:57:23 - Error fetching Plytix auth token:urls is not defined
+10/3/2024, 19:57:23 - Error main: ReferenceError: urls is not defined
+10/3/2024, 19:57:34 - Error fetching Plytix auth token:urls is not defined
+10/3/2024, 19:57:34 - Error main: ReferenceError: urls is not defined
+10/3/2024, 19:58:32 - Error fetching Plytix auth token:urls is not defined
+10/3/2024, 19:58:32 - Error main: ReferenceError: urls is not defined
+10/3/2024, 19:58:35 - Error fetching Plytix auth token:urls is not defined
+10/3/2024, 19:58:35 - Error main: ReferenceError: urls is not defined
+10/3/2024, 19:58:38 - Error fetching Plytix auth token:urls is not defined
+10/3/2024, 19:58:38 - Error main: ReferenceError: urls is not defined
+10/3/2024, 19:59:11 - Error getting Plytix product IDs:currentPagae is not defined
+10/3/2024, 19:59:11 - Error main: ReferenceError: currentPagae is not defined
+10/3/2024, 20:00:27 - New materials in SAP: ARM-BH-140-AL,BAR-TP-013-BL,MLS-BH-002-BL,REP-TD-024-DO,TRE-DP-004-BL,V-NIZ-18-08-D-D,0103/H6-CR,0207/H6-CR,0294.0/72.2.2,0479/20N-19-CR,0626/85L-X-CR,0626R/85L-X-CR
+10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
+10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
+10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
+10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
+10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
+10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
+10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
+10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
+10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
+10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
+10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
+10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
+10/3/2024, 20:00:27 - Error main: ReferenceError: apiPassword is not defined
+10/3/2024, 20:01:55 - New materials in SAP: ARM-BH-140-AL,BAR-TP-013-BL,MLS-BH-002-BL,REP-TD-024-DO,TRE-DP-004-BL,V-NIZ-18-08-D-D,0103/H6-CR,0207/H6-CR,0294.0/72.2.2,0479/20N-19-CR,0626/85L-X-CR,0626R/85L-X-CR
+10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists ARM-BH-140-AL
+10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists BAR-TP-013-BL
+10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists REP-TD-024-DO
+10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists MLS-BH-002-BL
+10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists TRE-DP-004-BL
+10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists 0207/H6-CR
+10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists 0103/H6-CR
+10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists 0294.0/72.2.2
+10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists 0626/85L-X-CR
+10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists 0479/20N-19-CR
+10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists 0626R/85L-X-CR
+10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists V-NIZ-18-08-D-D
+10/3/2024, 20:03:31 - New materials in SAP: ARM-BH-140-AL,BAR-TP-013-BL,MLS-BH-002-BL,REP-TD-024-DO,TRE-DP-004-BL,V-NIZ-18-08-D-D,0103/H6-CR,0207/H6-CR,0294.0/72.2.2,0479/20N-19-CR,0626/85L-X-CR,0626R/85L-X-CR
+10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists ARM-BH-140-AL
+10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists BAR-TP-013-BL
+10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists REP-TD-024-DO
+10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists V-NIZ-18-08-D-D
+10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists MLS-BH-002-BL
+10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists 0103/H6-CR
+10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists TRE-DP-004-BL
+10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists 0626/85L-X-CR
+10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists 0479/20N-19-CR
+10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists 0207/H6-CR
+10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists 0294.0/72.2.2
+10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists 0626R/85L-X-CR
+10/3/2024, 20:04:45 - Error getting products from SAP: products is not defined
+10/3/2024, 20:04:45 - Error main: Error: ReferenceError: products is not defined
+10/3/2024, 20:06:20 - Test post products:
+10/3/2024, 20:06:20 - New materials in SAP: ARM-BH-140-AL,BAR-TP-013-BL,MLS-BH-002-BL,REP-TD-024-DO,TRE-DP-004-BL,V-NIZ-18-08-D-D,0103/H6-CR,0207/H6-CR,0294.0/72.2.2,0479/20N-19-CR,0626/85L-X-CR,0626R/85L-X-CR
+10/3/2024, 20:06:21 - Product created on Plytix: ARM-BH-140-AL
+10/3/2024, 20:06:21 - Product created on Plytix: BAR-TP-013-BL
+10/3/2024, 20:06:21 - Product created on Plytix: 0103/H6-CR
+10/3/2024, 20:06:21 - Product created on Plytix: V-NIZ-18-08-D-D
+10/3/2024, 20:06:21 - Product created on Plytix: 0479/20N-19-CR
+10/3/2024, 20:06:21 - Product created on Plytix: TRE-DP-004-BL
+10/3/2024, 20:06:21 - Product created on Plytix: 0207/H6-CR
+10/3/2024, 20:06:21 - Product created on Plytix: 0294.0/72.2.2
+10/3/2024, 20:06:21 - Product created on Plytix: 0626/85L-X-CR
+10/3/2024, 20:06:21 - Product created on Plytix: MLS-BH-002-BL
+10/3/2024, 20:06:21 - Product created on Plytix: 0626R/85L-X-CR
+10/3/2024, 20:06:21 - Product created on Plytix: REP-TD-024-DO
+10/3/2024, 20:08:36 - New materials in SAP: ARM-BH-140-AL,BAR-TP-013-BL,MLS-BH-002-BL,REP-TD-024-DO,TRE-DP-004-BL,V-NIZ-18-08-D-D,0103/H6-CR,0207/H6-CR,0294.0/72.2.2,0479/20N-19-CR,0626/85L-X-CR,0626R/85L-X-CR
+10/3/2024, 20:08:37 - Product created on Plytix: BAR-TP-013-BL
+10/3/2024, 20:08:37 - Product created on Plytix: ARM-BH-140-AL
+10/3/2024, 20:08:37 - Product created on Plytix: MLS-BH-002-BL
+10/3/2024, 20:08:37 - Product created on Plytix: REP-TD-024-DO
+10/3/2024, 20:08:37 - Product created on Plytix: TRE-DP-004-BL
+10/3/2024, 20:08:37 - Product created on Plytix: 0479/20N-19-CR
+10/3/2024, 20:08:37 - Product created on Plytix: 0294.0/72.2.2
+10/3/2024, 20:08:37 - Product created on Plytix: 0626R/85L-X-CR
+10/3/2024, 20:08:37 - Product created on Plytix: 0626/85L-X-CR
+10/3/2024, 20:08:37 - Product created on Plytix: 0207/H6-CR
+10/3/2024, 20:08:37 - Product created on Plytix: V-NIZ-18-08-D-D
+10/3/2024, 20:08:37 - Product created on Plytix: 0103/H6-CR
+10/3/2024, 20:10:48 - New materials in SAP: ARM-BH-140-AL,BAR-TP-013-BL,MLS-BH-002-BL,REP-TD-024-DO,TRE-DP-004-BL,V-NIZ-18-08-D-D,0103/H6-CR,0207/H6-CR,0294.0/72.2.2,0479/20N-19-CR,0626/85L-X-CR,0626R/85L-X-CR
+10/3/2024, 20:10:49 - Product created on Plytix: 0294.0/72.2.2
+10/3/2024, 20:10:49 - Product created on Plytix: ARM-BH-140-AL
+10/3/2024, 20:10:49 - Product created on Plytix: 0479/20N-19-CR
+10/3/2024, 20:10:49 - Product created on Plytix: REP-TD-024-DO
+10/3/2024, 20:10:49 - Product created on Plytix: V-NIZ-18-08-D-D
+10/3/2024, 20:10:49 - Product created on Plytix: BAR-TP-013-BL
+10/3/2024, 20:10:49 - Product created on Plytix: 0626/85L-X-CR
+10/3/2024, 20:10:50 - Product created on Plytix: MLS-BH-002-BL
+10/3/2024, 20:10:50 - Product created on Plytix: 0626R/85L-X-CR
+10/3/2024, 20:10:50 - Product created on Plytix: TRE-DP-004-BL
+10/3/2024, 20:10:50 - Product created on Plytix: 0207/H6-CR
+10/3/2024, 20:10:50 - Product created on Plytix: 0103/H6-CR
+10/3/2024, 20:13:50 - New materials in SAP: ARM-BH-140-AL,BAR-TP-013-BL,MLS-BH-002-BL,REP-TD-024-DO,TRE-DP-004-BL,V-NIZ-18-08-D-D,0103/H6-CR,0207/H6-CR,0294.0/72.2.2,0479/20N-19-CR,0626/85L-X-CR,0626R/85L-X-CR
+10/3/2024, 20:13:51 - Product created on Plytix: BAR-TP-013-BL
+10/3/2024, 20:13:51 - Product created on Plytix: ARM-B  H-140-AL
+10/3/2024, 20:13:51 - Product created on Plytix: MLS-BH-002-BL
+10/3/2024, 20:13:51 - Product created on Plytix: V-NIZ-18-08-D-D
+10/3/2024, 20:13:51 - Product created on Plytix: REP-TD-024-DO
+10/3/2024, 20:13:51 - Product created on Plytix: TRE-DP-004-BL
+10/3/2024, 20:13:51 - Product created on Plytix: 0294.0/72.2.2
+10/3/2024, 20:13:51 - Product created on Plytix: 0207/H6-CR
+10/3/2024, 20:13:51 - Product created on Plytix: 0103/H6-CR
+10/3/2024, 20:13:51 - Product created on Plytix: 0626/85L-X-CR
+10/3/2024, 20:13:51 - Product created on Plytix: 0479/20N-19-CR
+10/3/2024, 20:13:51 - Product created on Plytix: 0626R/85L-X-CR
+10/3/2024, 20:13:51 - Synchronization betwen SAP and Plytix ended
+10/3/2024, 21:30:04 - Error getting products from SAP: fetch failed
+10/3/2024, 21:30:04 - Error main: Error: TypeError: fetch failed
+10/3/2024, 21:39:28 - Error getting products from SAP: fetch failed
+10/3/2024, 21:39:28 - Error main: TypeError: fetch failed
+10/3/2024, 21:41:07 - New materials in SAP: ARM-BH-140-AL,BAR-TP-013-BL,MLS-BH-002-BL,REP-TD-024-DO,TRE-DP-004-BL,V-NIZ-18-08-D-D,0103/H6-CR,0207/H6-CR,0294.0/72.2.2,0479/20N-19-CR,0626/85L-X-CR,0626R/85L-X-CR
+10/3/2024, 21:41:08 - Error main: TypeError: postNewProducts is not a function
+10/3/2024, 21:45:16 - New materials in SAP: ARM-BH-140-AL,BAR-TP-013-BL,MLS-BH-002-BL,REP-TD-024-DO,TRE-DP-004-BL,V-NIZ-18-08-D-D,0103/H6-CR,0207/H6-CR,0294.0/72.2.2,0479/20N-19-CR,0626/85L-X-CR,0626R/85L-X-CR
+10/3/2024, 21:45:17 - Product created on Plytix: BAR-TP-013-BL
+10/3/2024, 21:45:17 - Product created on Plytix: ARM-BH-140-AL
+10/3/2024, 21:45:17 - Product created on Plytix: REP-TD-024-DO
+10/3/2024, 21:45:17 - Product created on Plytix: MLS-BH-002-BL
+10/3/2024, 21:45:17 - Product created on Plytix: V-NIZ-18-08-D-D
+10/3/2024, 21:45:17 - Product created on Plytix: TRE-DP-004-BL
+10/3/2024, 21:45:17 - Product created on Plytix: 0479/20N-19-CR
+10/3/2024, 21:45:17 - Product created on Plytix: 0103/H6-CR
+10/3/2024, 21:45:18 - Product created on Plytix: 0207/H6-CR
+10/3/2024, 21:45:18 - Product created on Plytix: 0626/85L-X-CR
+10/3/2024, 21:45:18 - Product created on Plytix: 0294.0/72.2.2
+10/3/2024, 21:45:18 - Product created on Plytix: 0626R/85L-X-CR
+10/3/2024, 21:45:18 - Synchronization betwen SAP and Plytix ended
