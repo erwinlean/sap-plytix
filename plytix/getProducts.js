@@ -8,53 +8,53 @@ const createLog = require("../logs/logs");
  *  @returns {Promise<Object[]>} A promise resolving to an array of objects representing PIM products.
  */
 const getAllProducts = async (token) => {
-    const url_get_products = "https://pim.plytix.com/api/v1/products/search";
+  const url_get_products = "https://pim.plytix.com/api/v1/products/search";
 
-    try {
-        const myHeaders = new Headers();
-        myHeaders.append("Authorization", `Bearer ${token}`);
-        myHeaders.append("Content-Type", "application/json");
+  try {
+    const myHeaders = new Headers();
+    myHeaders.append("Authorization", `Bearer ${token}`);
+    myHeaders.append("Content-Type", "application/json");
 
-        let allProducts = [];
-        let currentPage = 1;
-        let totalPages = 1;
+    let allProducts = [];
+    let currentPage = 1;
+    let totalPages = 1;
 
-        while (currentPage <= totalPages) {
-            const requestBody = {
-                pagination: {
-                    page: currentPage,
-                    page_size: 100,
-                    order: "asc/label"
-                }
-            };
-
-            const requestOptions = {
-                method: "POST",
-                headers: myHeaders,
-                body: JSON.stringify(requestBody),
-                redirect: "follow"
-            };
-
-            const response = await fetch(url_get_products, requestOptions);
-            const data = await response.json();
-
-            // Add products from current page to the array
-            allProducts = allProducts.concat(data.data);
-
-            // Update totalPages if it"s not already set
-            if (totalPages === 1) {
-                totalPages = Math.ceil(data.pagination.total_count / 100);
-            }
-
-            currentPage++;
+    while (currentPage <= totalPages) {
+      const requestBody = {
+        pagination: {
+          page: currentPage,
+          page_size: 100,
+          order: "asc/label"
         }
+      };
 
-        return allProducts;
-    } catch (error) {
-        createLog("Error getting Plytix product IDs:" + error.message);
-        console.log("Error getting Plytix product IDs:" + error.message);
-        throw error;
+      const requestOptions = {
+        method: "POST",
+        headers: myHeaders,
+        body: JSON.stringify(requestBody),
+        redirect: "follow"
+      };
+
+      const response = await fetch(url_get_products, requestOptions);
+      const data = await response.json();
+
+      // Add products from current page to the array
+      allProducts = allProducts.concat(data.data);
+
+      // Update totalPages if it"s not already set
+      if (totalPages === 1) {
+        totalPages = Math.ceil(data.pagination.total_count / 100);
+      }
+
+      currentPage++;
     }
+
+    return allProducts;
+  } catch (error) {
+    createLog("Error getting Plytix product IDs:" + error.message);
+    console.log("Error getting Plytix product IDs:" + error.message);
+    throw error;
+  }
 };
 
 module.exports = getAllProducts;

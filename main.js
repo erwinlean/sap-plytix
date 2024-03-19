@@ -3,7 +3,11 @@
  *  Script requirements:
  *  Install Node.js version used 20.11.1
  *  npm install node-fetch
+ *  npm install os-utils
  */
+
+// Start time (check script timing)
+const startTime = new Date();
 
 // Functions and variables needed
 const { getProducts, urls } = require("./sap/getProducts");
@@ -12,7 +16,8 @@ const getPlytixToken = require("./plytix/auth");
 const postNewProducts = require("./plytix/postProducts");
 const getPlytixTokenTest = require("./plytix/testauth");
 const comparasion = require("./dataProcessing/dataComparison");
-const createLog = require("./logs/logs")
+const createLog = require("./logs/logs");
+const checkMemory = require("./CPU/memory");
 
 /**
  *  Performs synchronization between SAP and Plytix.
@@ -21,17 +26,18 @@ const createLog = require("./logs/logs")
  *  @returns {Promise<void>} A promise indicating the completion of the synchronization.
  */
 async function main() {
-    try{
-        // Plytix
-        const token = await getPlytixToken();
-        const pimProducts = await getAllProducts(token);
+    try {
 
         // SAP
         const sapProducts = [];
         for (const urlInfo of urls) {
             sapProducts.push(await getProducts(urlInfo))
         };
-        
+
+        // Plytix
+        const token = await getPlytixToken();
+        const pimProducts = await getAllProducts(token);
+
         // Data process
         const newProductsData = await comparasion(pimProducts, sapProducts);
 
@@ -41,12 +47,21 @@ async function main() {
         await Promise.all(postPromises);
 
         // End and log save.
-        createLog("Synchronization betwen SAP and Plytix ended");
-        return console.log("Synchronization betwen SAP and Plytix ended.");
-    }catch(err){
+        createLog("Synchronization between SAP and Plytix ended");
+
+        // Check memory usage
+        checkMemory();
+
+        // Script time end
+        const endTime = new Date();
+        const elapsedTime = endTime - startTime;
+        console.log('Elapsed Time (ms):', elapsedTime);
+
+        return console.log("Synchronization between SAP and Plytix ended.");
+    } catch (err) {
         createLog("Error main: " + err);
-        console.log("error main:", err);
-        throw new Error(err); 
+        console.log("Error main:", err);
+        throw new Error(err);
     };
 };
 
