@@ -11,37 +11,41 @@ const createLog = require("../logs/logs");
 const postNewProducts = async (accessToken, sapData) => {
     const postUrl = "https://pim.plytix.com/api/v1/products";
 
-    // Categories id
-    // ferrum
-    let currentCategories = "65e9aece5b64717916e6e2f2";
-    if(sapData.categories === "fv"){
-        // fv
-        currentCategories = "65e9aecaf7b219a225d086cd";
-    };
-
     try {
+        // Ferrum categories
+        let categoryId = "65e9aece5b64717916e6e2f2";
+        let categoryLabelFerrum = "Ferrum";
+        let categoryLabelFv = "";
+        if(sapData.Categories === "Fv"){
+        // FV categories
+            categoryId = "65e9aecaf7b219a225d086cd";
+            categoryLabelFerrum = "";
+            categoryLabelFv = "Fv";
+        };
+
         // Schema to send Plytix, matching attributes and SKU required for the creation
         const productData = {
             // SKU
             sku: sapData.Material,
             // Hardcode Attributes codes
             attributes: {
-                ean: sapData.Ean,
+                ean: sapData.Ean || "",
                 linea: sapData.Linea || "",
                 // descripcion_sap is, for the PIM the name, not descripcion
                 nombre_sap: sapData.Descripcion || "",
-                // Check witch one of "marca" is the correct to send the data
-                fe_marca: sapData.categories,
-                fv_marca: sapData.categories
+                // Marca on plytix fe (is ferrum) and fv, one or another.
+                fe_marca: categoryLabelFerrum,
+                fv_marca: categoryLabelFv
             },
             // Hardcode categories id depends if is FV or Ferrum
             categories: [{ 
-                id: currentCategories
+                id: categoryId
             }],
-            // Hardcode the draft status, just in case.
+            // Hardcode the draft status.
             status: "Draft"
-        }
+        };
 
+        // Post request
         const requestOptions = {
             method: "POST",
             headers: {  

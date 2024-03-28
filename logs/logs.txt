@@ -1,134 +1,460 @@
-10/3/2024, 19:48:04 - Test errors:
-10/3/2024, 19:48:04 - Error main: ReferenceError: agetPlytixToken is not defined
-10/3/2024, 19:52:40 - Error main: ReferenceError: agetPlytixToken is not defined
-10/3/2024, 19:52:41 - Error main: ReferenceError: agetPlytixToken is not defined
-10/3/2024, 19:56:41 - Error proccesing data: sapSku is not defined
-10/3/2024, 19:56:41 - Error main: ReferenceError: sapSku is not defined
-10/3/2024, 19:57:23 - Error fetching Plytix auth token:urls is not defined
-10/3/2024, 19:57:23 - Error main: ReferenceError: urls is not defined
-10/3/2024, 19:57:34 - Error fetching Plytix auth token:urls is not defined
-10/3/2024, 19:57:34 - Error main: ReferenceError: urls is not defined
-10/3/2024, 19:58:32 - Error fetching Plytix auth token:urls is not defined
-10/3/2024, 19:58:32 - Error main: ReferenceError: urls is not defined
-10/3/2024, 19:58:35 - Error fetching Plytix auth token:urls is not defined
-10/3/2024, 19:58:35 - Error main: ReferenceError: urls is not defined
-10/3/2024, 19:58:38 - Error fetching Plytix auth token:urls is not defined
-10/3/2024, 19:58:38 - Error main: ReferenceError: urls is not defined
-10/3/2024, 19:59:11 - Error getting Plytix product IDs:currentPagae is not defined
-10/3/2024, 19:59:11 - Error main: ReferenceError: currentPagae is not defined
-10/3/2024, 20:00:27 - New materials in SAP: ARM-BH-140-AL,BAR-TP-013-BL,MLS-BH-002-BL,REP-TD-024-DO,TRE-DP-004-BL,V-NIZ-18-08-D-D,0103/H6-CR,0207/H6-CR,0294.0/72.2.2,0479/20N-19-CR,0626/85L-X-CR,0626R/85L-X-CR
-10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
-10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
-10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
-10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
-10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
-10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
-10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
-10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
-10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
-10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
-10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
-10/3/2024, 20:00:27 - Error posting new products in main:apiPassword is not defined
-10/3/2024, 20:00:27 - Error main: ReferenceError: apiPassword is not defined
-10/3/2024, 20:01:55 - New materials in SAP: ARM-BH-140-AL,BAR-TP-013-BL,MLS-BH-002-BL,REP-TD-024-DO,TRE-DP-004-BL,V-NIZ-18-08-D-D,0103/H6-CR,0207/H6-CR,0294.0/72.2.2,0479/20N-19-CR,0626/85L-X-CR,0626R/85L-X-CR
-10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists ARM-BH-140-AL
-10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists BAR-TP-013-BL
-10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists REP-TD-024-DO
-10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists MLS-BH-002-BL
-10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists TRE-DP-004-BL
-10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists 0207/H6-CR
-10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists 0103/H6-CR
-10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists 0294.0/72.2.2
-10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists 0626/85L-X-CR
-10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists 0479/20N-19-CR
-10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists 0626R/85L-X-CR
-10/3/2024, 20:01:56 - Error posting new products on response: A product with the same sku already exists V-NIZ-18-08-D-D
-10/3/2024, 20:03:31 - New materials in SAP: ARM-BH-140-AL,BAR-TP-013-BL,MLS-BH-002-BL,REP-TD-024-DO,TRE-DP-004-BL,V-NIZ-18-08-D-D,0103/H6-CR,0207/H6-CR,0294.0/72.2.2,0479/20N-19-CR,0626/85L-X-CR,0626R/85L-X-CR
-10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists ARM-BH-140-AL
-10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists BAR-TP-013-BL
-10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists REP-TD-024-DO
-10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists V-NIZ-18-08-D-D
-10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists MLS-BH-002-BL
-10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists 0103/H6-CR
-10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists TRE-DP-004-BL
-10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists 0626/85L-X-CR
-10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists 0479/20N-19-CR
-10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists 0207/H6-CR
-10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists 0294.0/72.2.2
-10/3/2024, 20:03:32 - Error posting new products on response: A product with the same sku already exists 0626R/85L-X-CR
-10/3/2024, 20:04:45 - Error getting products from SAP: products is not defined
-10/3/2024, 20:04:45 - Error main: Error: ReferenceError: products is not defined
-10/3/2024, 20:06:20 - Test post products:
-10/3/2024, 20:06:20 - New materials in SAP: ARM-BH-140-AL,BAR-TP-013-BL,MLS-BH-002-BL,REP-TD-024-DO,TRE-DP-004-BL,V-NIZ-18-08-D-D,0103/H6-CR,0207/H6-CR,0294.0/72.2.2,0479/20N-19-CR,0626/85L-X-CR,0626R/85L-X-CR
-10/3/2024, 20:06:21 - Product created on Plytix: ARM-BH-140-AL
-10/3/2024, 20:06:21 - Product created on Plytix: BAR-TP-013-BL
-10/3/2024, 20:06:21 - Product created on Plytix: 0103/H6-CR
-10/3/2024, 20:06:21 - Product created on Plytix: V-NIZ-18-08-D-D
-10/3/2024, 20:06:21 - Product created on Plytix: 0479/20N-19-CR
-10/3/2024, 20:06:21 - Product created on Plytix: TRE-DP-004-BL
-10/3/2024, 20:06:21 - Product created on Plytix: 0207/H6-CR
-10/3/2024, 20:06:21 - Product created on Plytix: 0294.0/72.2.2
-10/3/2024, 20:06:21 - Product created on Plytix: 0626/85L-X-CR
-10/3/2024, 20:06:21 - Product created on Plytix: MLS-BH-002-BL
-10/3/2024, 20:06:21 - Product created on Plytix: 0626R/85L-X-CR
-10/3/2024, 20:06:21 - Product created on Plytix: REP-TD-024-DO
-10/3/2024, 20:08:36 - New materials in SAP: ARM-BH-140-AL,BAR-TP-013-BL,MLS-BH-002-BL,REP-TD-024-DO,TRE-DP-004-BL,V-NIZ-18-08-D-D,0103/H6-CR,0207/H6-CR,0294.0/72.2.2,0479/20N-19-CR,0626/85L-X-CR,0626R/85L-X-CR
-10/3/2024, 20:08:37 - Product created on Plytix: BAR-TP-013-BL
-10/3/2024, 20:08:37 - Product created on Plytix: ARM-BH-140-AL
-10/3/2024, 20:08:37 - Product created on Plytix: MLS-BH-002-BL
-10/3/2024, 20:08:37 - Product created on Plytix: REP-TD-024-DO
-10/3/2024, 20:08:37 - Product created on Plytix: TRE-DP-004-BL
-10/3/2024, 20:08:37 - Product created on Plytix: 0479/20N-19-CR
-10/3/2024, 20:08:37 - Product created on Plytix: 0294.0/72.2.2
-10/3/2024, 20:08:37 - Product created on Plytix: 0626R/85L-X-CR
-10/3/2024, 20:08:37 - Product created on Plytix: 0626/85L-X-CR
-10/3/2024, 20:08:37 - Product created on Plytix: 0207/H6-CR
-10/3/2024, 20:08:37 - Product created on Plytix: V-NIZ-18-08-D-D
-10/3/2024, 20:08:37 - Product created on Plytix: 0103/H6-CR
-10/3/2024, 20:10:48 - New materials in SAP: ARM-BH-140-AL,BAR-TP-013-BL,MLS-BH-002-BL,REP-TD-024-DO,TRE-DP-004-BL,V-NIZ-18-08-D-D,0103/H6-CR,0207/H6-CR,0294.0/72.2.2,0479/20N-19-CR,0626/85L-X-CR,0626R/85L-X-CR
-10/3/2024, 20:10:49 - Product created on Plytix: 0294.0/72.2.2
-10/3/2024, 20:10:49 - Product created on Plytix: ARM-BH-140-AL
-10/3/2024, 20:10:49 - Product created on Plytix: 0479/20N-19-CR
-10/3/2024, 20:10:49 - Product created on Plytix: REP-TD-024-DO
-10/3/2024, 20:10:49 - Product created on Plytix: V-NIZ-18-08-D-D
-10/3/2024, 20:10:49 - Product created on Plytix: BAR-TP-013-BL
-10/3/2024, 20:10:49 - Product created on Plytix: 0626/85L-X-CR
-10/3/2024, 20:10:50 - Product created on Plytix: MLS-BH-002-BL
-10/3/2024, 20:10:50 - Product created on Plytix: 0626R/85L-X-CR
-10/3/2024, 20:10:50 - Product created on Plytix: TRE-DP-004-BL
-10/3/2024, 20:10:50 - Product created on Plytix: 0207/H6-CR
-10/3/2024, 20:10:50 - Product created on Plytix: 0103/H6-CR
-10/3/2024, 20:13:50 - New materials in SAP: ARM-BH-140-AL,BAR-TP-013-BL,MLS-BH-002-BL,REP-TD-024-DO,TRE-DP-004-BL,V-NIZ-18-08-D-D,0103/H6-CR,0207/H6-CR,0294.0/72.2.2,0479/20N-19-CR,0626/85L-X-CR,0626R/85L-X-CR
-10/3/2024, 20:13:51 - Product created on Plytix: BAR-TP-013-BL
-10/3/2024, 20:13:51 - Product created on Plytix: ARM-B  H-140-AL
-10/3/2024, 20:13:51 - Product created on Plytix: MLS-BH-002-BL
-10/3/2024, 20:13:51 - Product created on Plytix: V-NIZ-18-08-D-D
-10/3/2024, 20:13:51 - Product created on Plytix: REP-TD-024-DO
-10/3/2024, 20:13:51 - Product created on Plytix: TRE-DP-004-BL
-10/3/2024, 20:13:51 - Product created on Plytix: 0294.0/72.2.2
-10/3/2024, 20:13:51 - Product created on Plytix: 0207/H6-CR
-10/3/2024, 20:13:51 - Product created on Plytix: 0103/H6-CR
-10/3/2024, 20:13:51 - Product created on Plytix: 0626/85L-X-CR
-10/3/2024, 20:13:51 - Product created on Plytix: 0479/20N-19-CR
-10/3/2024, 20:13:51 - Product created on Plytix: 0626R/85L-X-CR
-10/3/2024, 20:13:51 - Synchronization betwen SAP and Plytix ended
-10/3/2024, 21:30:04 - Error getting products from SAP: fetch failed
-10/3/2024, 21:30:04 - Error main: Error: TypeError: fetch failed
-10/3/2024, 21:39:28 - Error getting products from SAP: fetch failed
-10/3/2024, 21:39:28 - Error main: TypeError: fetch failed
-10/3/2024, 21:41:07 - New materials in SAP: ARM-BH-140-AL,BAR-TP-013-BL,MLS-BH-002-BL,REP-TD-024-DO,TRE-DP-004-BL,V-NIZ-18-08-D-D,0103/H6-CR,0207/H6-CR,0294.0/72.2.2,0479/20N-19-CR,0626/85L-X-CR,0626R/85L-X-CR
-10/3/2024, 21:41:08 - Error main: TypeError: postNewProducts is not a function
-10/3/2024, 21:45:16 - New materials in SAP: ARM-BH-140-AL,BAR-TP-013-BL,MLS-BH-002-BL,REP-TD-024-DO,TRE-DP-004-BL,V-NIZ-18-08-D-D,0103/H6-CR,0207/H6-CR,0294.0/72.2.2,0479/20N-19-CR,0626/85L-X-CR,0626R/85L-X-CR
-10/3/2024, 21:45:17 - Product created on Plytix: BAR-TP-013-BL
-10/3/2024, 21:45:17 - Product created on Plytix: ARM-BH-140-AL
-10/3/2024, 21:45:17 - Product created on Plytix: REP-TD-024-DO
-10/3/2024, 21:45:17 - Product created on Plytix: MLS-BH-002-BL
-10/3/2024, 21:45:17 - Product created on Plytix: V-NIZ-18-08-D-D
-10/3/2024, 21:45:17 - Product created on Plytix: TRE-DP-004-BL
-10/3/2024, 21:45:17 - Product created on Plytix: 0479/20N-19-CR
-10/3/2024, 21:45:17 - Product created on Plytix: 0103/H6-CR
-10/3/2024, 21:45:18 - Product created on Plytix: 0207/H6-CR
-10/3/2024, 21:45:18 - Product created on Plytix: 0626/85L-X-CR
-10/3/2024, 21:45:18 - Product created on Plytix: 0294.0/72.2.2
-10/3/2024, 21:45:18 - Product created on Plytix: 0626R/85L-X-CR
-10/3/2024, 21:45:18 - Synchronization betwen SAP and Plytix ended
+25/3/2024, 18:47:42 - Synchronization between SAP and Plytix Started.
+25/3/2024, 18:47:54 - Total Ferrum products: 3549
+25/3/2024, 18:47:54 - Active Ferrum products: 1036
+25/3/2024, 18:48:24 - Total FV products: 14991
+25/3/2024, 18:48:24 - Active FV products: 7405
+25/3/2024, 18:48:42 - Total skus from SAP: 8441
+25/3/2024, 18:48:42 - Total skus from Plytix: 3730
+25/3/2024, 18:48:42 - Total of No matching SKU from SAP/Plytix: 5967
+25/3/2024, 18:48:43 - Total of matching SKU from SAP/Plytix fv + ferrum: 2474
+25/3/2024, 18:48:43 - New materials/Products on SAP in comparation to Plytix: 5967
+25/3/2024, 18:48:43 - Product created on Plytix: ACO-PE-012-BL
+25/3/2024, 18:48:44 - Product created on Plytix: AFX-JG-011-BL
+25/3/2024, 18:48:44 - Product created on Plytix: ARM-BH-140-AL
+25/3/2024, 18:48:45 - Product created on Plytix: ATU-TP-003-BL
+25/3/2024, 18:48:45 - Product created on Plytix: ATU-TP-005-BL
+25/3/2024, 18:48:46 - Product created on Plytix: ESP-TP-004-BL
+25/3/2024, 18:48:46 - Product created on Plytix: H-CAR-17-06-B-D
+25/3/2024, 18:48:46 - Product created on Plytix: H-CAR-17-06-B-I
+25/3/2024, 18:48:47 - Product created on Plytix: REP-TD-024-DO
+25/3/2024, 18:48:47 - Product created on Plytix: RON-ET-002-BL
+25/3/2024, 18:48:48 - Product created on Plytix: TEM-DP-001-BL
+25/3/2024, 18:48:48 - Product created on Plytix: TFN-TP-001-BL
+25/3/2024, 18:48:49 - Product created on Plytix: TFN-TP-002-BL
+25/3/2024, 18:48:49 - Product created on Plytix: TFN-TP-003-BL
+25/3/2024, 18:48:50 - Product created on Plytix: TFN-TP-004-BL
+25/3/2024, 18:48:50 - Product created on Plytix: TFN-TP-005-BL
+25/3/2024, 18:48:51 - Product created on Plytix: TFN-TP-006-BL
+25/3/2024, 18:48:51 - Product created on Plytix: TFN-TP-008-BL
+25/3/2024, 18:48:52 - Product created on Plytix: TFN-TP-012-BL
+25/3/2024, 18:48:52 - Product created on Plytix: TFN-TP-013-BL
+25/3/2024, 18:48:53 - Error posting new products on response: Too many requests, retry after 395 milliseconds TFN-TP-014-BL
+25/3/2024, 18:48:53 - Product created on Plytix: TFN-TP-015-BL
+25/3/2024, 18:48:54 - Product created on Plytix: TFN-TP-016-BL
+25/3/2024, 18:48:54 - Product created on Plytix: TFN-TP-018-BL
+25/3/2024, 18:48:55 - Product created on Plytix: TOR-BH-067-BL
+25/3/2024, 18:48:55 - Product created on Plytix: TRE-DP-004-BL
+25/3/2024, 18:48:56 - Product created on Plytix: V-NIZ-18-08-D-D
+25/3/2024, 18:48:56 - Product created on Plytix: 0013.04/56
+25/3/2024, 18:48:57 - Product created on Plytix: 0013.05/56
+25/3/2024, 18:48:57 - Product created on Plytix: 0013.05/63
+25/3/2024, 18:48:58 - Product created on Plytix: 0013.06/56
+25/3/2024, 18:48:58 - Product created on Plytix: 0013.06/63
+25/3/2024, 18:48:59 - Product created on Plytix: 0013.07/56
+25/3/2024, 18:48:59 - Product created on Plytix: 0013.07/63
+25/3/2024, 18:49:00 - Product created on Plytix: 0013.08/56
+25/3/2024, 18:49:00 - Product created on Plytix: 0014.00/56
+25/3/2024, 18:49:01 - Product created on Plytix: 0015.00/44-BO
+25/3/2024, 18:49:01 - Product created on Plytix: 0017.05/63
+25/3/2024, 18:49:02 - Product created on Plytix: 0017.06/63
+25/3/2024, 18:49:02 - Product created on Plytix: 0017.11/63
+25/3/2024, 18:49:03 - Product created on Plytix: 0017.12/63
+25/3/2024, 18:49:03 - Error posting new products on response: Too many requests, retry after 212 milliseconds 0060.01
+25/3/2024, 18:49:04 - Product created on Plytix: 0060.02
+25/3/2024, 18:49:04 - Product created on Plytix: 0103.01/20
+25/3/2024, 18:49:05 - Product created on Plytix: 0103.01/20P-CR
+25/3/2024, 18:49:05 - Product created on Plytix: 0103.01/25
+25/3/2024, 18:49:06 - Product created on Plytix: 0103.01/25P-CR
+25/3/2024, 18:49:06 - Product created on Plytix: 0103.01/39-CR
+25/3/2024, 18:49:06 - Product created on Plytix: 0103.01/44
+25/3/2024, 18:49:07 - Product created on Plytix: 0103.01/59L-CR
+25/3/2024, 18:49:07 - Product created on Plytix: 0103.01/61
+25/3/2024, 18:49:08 - Product created on Plytix: 0103.01/63
+25/3/2024, 18:49:08 - Product created on Plytix: 0103.01/65
+25/3/2024, 18:49:09 - Product created on Plytix: 0103.01/73
+25/3/2024, 18:49:09 - Product created on Plytix: 0103.01/74
+25/3/2024, 18:49:10 - Product created on Plytix: 0103.01/75
+25/3/2024, 18:49:10 - Product created on Plytix: 0103.01/84-CR
+25/3/2024, 18:49:11 - Product created on Plytix: 0103.01/85-CR
+25/3/2024, 18:49:11 - Product created on Plytix: 0103.01R/85-CR
+25/3/2024, 18:49:12 - Product created on Plytix: 0103.02/46-OR
+25/3/2024, 18:49:13 - Product created on Plytix: 0103.02/59-CR
+25/3/2024, 18:49:13 - Product created on Plytix: 0103.02/85L-CR
+25/3/2024, 18:49:13 - Error posting new products on response: Too many requests, retry after 45 milliseconds 0103.02/87-CR
+25/3/2024, 18:49:14 - Product created on Plytix: 0103.02R/85L-CR
+25/3/2024, 18:49:14 - Product created on Plytix: 0103.03/39-CR
+25/3/2024, 18:49:15 - Product created on Plytix: 0103.03/83-CR
+25/3/2024, 18:49:16 - Product created on Plytix: 0103/01-BO
+25/3/2024, 18:49:16 - Product created on Plytix: 0103/01-CO
+25/3/2024, 18:49:17 - Product created on Plytix: 0103/15-BL
+25/3/2024, 18:49:17 - Product created on Plytix: 0103/16-BCB
+25/3/2024, 18:49:18 - Product created on Plytix: 0103/16-BOB
+25/3/2024, 18:49:18 - Product created on Plytix: 0103/16-CCB
+25/3/2024, 18:49:19 - Product created on Plytix: 0103/16-COC
+25/3/2024, 18:49:19 - Product created on Plytix: 0103/16-CR
+25/3/2024, 18:49:20 - Product created on Plytix: 0103/16-QS
+25/3/2024, 18:49:20 - Product created on Plytix: 0103/16-ST
+25/3/2024, 18:49:21 - Product created on Plytix: 0103/18-CR
+25/3/2024, 18:49:21 - Product created on Plytix: 0103/20
+25/3/2024, 18:49:22 - Product created on Plytix: 0103/20N-CR
+25/3/2024, 18:49:22 - Product created on Plytix: 0103/20P-CR
+25/3/2024, 18:49:23 - Product created on Plytix: 0103/23-BO
+25/3/2024, 18:49:23 - Product created on Plytix: 0103/23-CO
+25/3/2024, 18:49:24 - Product created on Plytix: 0103/24-CR
+25/3/2024, 18:49:24 - Product created on Plytix: 0103/24.ESP-CR
+25/3/2024, 18:49:25 - Product created on Plytix: 0103/24P-CR
+25/3/2024, 18:49:25 - Product created on Plytix: 0103/25
+25/3/2024, 18:49:25 - Product created on Plytix: 0103/25P-CR
+25/3/2024, 18:49:26 - Product created on Plytix: 0103/27-CR
+25/3/2024, 18:49:26 - Product created on Plytix: 0103/28-CR
+25/3/2024, 18:49:27 - Product created on Plytix: 0103/28.ESP-CR
+25/3/2024, 18:49:27 - Product created on Plytix: 0103/38-CR
+25/3/2024, 18:49:28 - Product created on Plytix: 0103/39-84ESP-CR
+25/3/2024, 18:49:28 - Product created on Plytix: 0103/39-ST
+25/3/2024, 18:49:29 - Product created on Plytix: 0103/39ESP-CR
+25/3/2024, 18:49:29 - Product created on Plytix: 0103/41-AZ
+25/3/2024, 18:49:30 - Product created on Plytix: 0103/41-BC
+25/3/2024, 18:49:30 - Product created on Plytix: 0103/41-CO
+25/3/2024, 18:49:31 - Product created on Plytix: 0103/41-NG
+25/3/2024, 18:49:31 - Product created on Plytix: 0103/41-RO
+25/3/2024, 18:49:32 - Product created on Plytix: 0103/42-A-AO
+25/3/2024, 18:49:32 - Product created on Plytix: 0103/42-A-BC
+25/3/2024, 18:49:33 - Product created on Plytix: 0103/42-A-BO
+25/3/2024, 18:49:33 - Product created on Plytix: 0103/42-A-CO
+25/3/2024, 18:49:34 - Error posting new products on response: Too many requests, retry after 185 milliseconds 0103/42-A-GC
+25/3/2024, 18:49:34 - Product created on Plytix: 0103/42-A-GL
+25/3/2024, 18:49:35 - Product created on Plytix: 0103/42-A-NG
+25/3/2024, 18:49:35 - Product created on Plytix: 0103/42-A-OR
+25/3/2024, 18:49:36 - Product created on Plytix: 0103/42-A-RO
+25/3/2024, 18:49:36 - Product created on Plytix: 0103/42-AC
+25/3/2024, 18:49:37 - Product created on Plytix: 0103/42-AO
+25/3/2024, 18:49:37 - Product created on Plytix: 0103/42-BC
+25/3/2024, 18:49:39 - Product created on Plytix: 0103/42-BO
+25/3/2024, 18:49:39 - Product created on Plytix: 0103/42-CB
+25/3/2024, 18:49:39 - Product created on Plytix: 0103/42-CO
+25/3/2024, 18:49:40 - Product created on Plytix: 0103/42-CR
+25/3/2024, 18:49:40 - Product created on Plytix: 0103/42-GC
+25/3/2024, 18:49:41 - Product created on Plytix: 0103/42-GL
+25/3/2024, 18:49:41 - Product created on Plytix: 0103/42-NG
+25/3/2024, 18:49:42 - Product created on Plytix: 0103/42-OR
+25/3/2024, 18:49:42 - Product created on Plytix: 0103/42-PO
+25/3/2024, 18:49:43 - Product created on Plytix: 0103/42-RO
+25/3/2024, 18:49:43 - Product created on Plytix: 0103/42.ESP-GL
+25/3/2024, 18:49:44 - Product created on Plytix: 0103/42ESP-CO
+25/3/2024, 18:49:44 - Product created on Plytix: 0103/44
+25/3/2024, 18:49:45 - Product created on Plytix: 0103/44-BO
+25/3/2024, 18:49:45 - Product created on Plytix: 0103/45-BC
+25/3/2024, 18:49:46 - Product created on Plytix: 0103/45-GC
+25/3/2024, 18:49:46 - Product created on Plytix: 0103/45-NO
+25/3/2024, 18:49:46 - Product created on Plytix: 0103/46-AN
+25/3/2024, 18:49:47 - Product created on Plytix: 0103/46-CO
+25/3/2024, 18:49:47 - Product created on Plytix: 0103/46-CR
+25/3/2024, 18:49:48 - Product created on Plytix: 0103/46-LC
+25/3/2024, 18:49:48 - Product created on Plytix: 0103/46-LT
+25/3/2024, 18:49:49 - Product created on Plytix: 0103/46-OR
+25/3/2024, 18:49:49 - Product created on Plytix: 0103/46-PE
+25/3/2024, 18:49:50 - Product created on Plytix: 0103/46-PO
+25/3/2024, 18:49:50 - Product created on Plytix: 0103/46-ST
+25/3/2024, 18:49:51 - Product created on Plytix: 0103/46.ESP-OR
+25/3/2024, 18:49:51 - Product created on Plytix: 0103/46S-CO
+25/3/2024, 18:49:52 - Product created on Plytix: 0103/47-AN
+25/3/2024, 18:49:52 - Product created on Plytix: 0103/47-CO
+25/3/2024, 18:49:53 - Product created on Plytix: 0103/47-CR
+25/3/2024, 18:49:53 - Product created on Plytix: 0103/47-LC
+25/3/2024, 18:49:54 - Product created on Plytix: 0103/47-LT
+25/3/2024, 18:49:54 - Error posting new products on response: Too many requests, retry after 306 milliseconds 0103/47-OR
+25/3/2024, 18:49:55 - Product created on Plytix: 0103/47-PE
+25/3/2024, 18:49:55 - Product created on Plytix: 0103/47-PO
+25/3/2024, 18:49:55 - Product created on Plytix: 0103/47-ST
+25/3/2024, 18:49:56 - Product created on Plytix: 0103/47SOFI-CR
+25/3/2024, 18:49:56 - Product created on Plytix: 0103/47V-CO
+25/3/2024, 18:49:57 - Product created on Plytix: 0103/47V-CR
+25/3/2024, 18:49:57 - Product created on Plytix: 0103/47V-LT
+25/3/2024, 18:49:58 - Product created on Plytix: 0103/47V-PO
+25/3/2024, 18:49:58 - Product created on Plytix: 0103/49-CN
+25/3/2024, 18:49:59 - Product created on Plytix: 0103/49-MB
+25/3/2024, 18:49:59 - Product created on Plytix: 0103/49-MW
+25/3/2024, 18:50:00 - Product created on Plytix: 0103/49-QS
+25/3/2024, 18:50:00 - Product created on Plytix: 0103/49-SN
+25/3/2024, 18:50:01 - Product created on Plytix: 0103/49.ESP-CR
+25/3/2024, 18:50:01 - Product created on Plytix: 0103/49L-CN
+25/3/2024, 18:50:02 - Product created on Plytix: 0103/49L-MB
+25/3/2024, 18:50:02 - Product created on Plytix: 0103/49L-MW
+25/3/2024, 18:50:03 - Product created on Plytix: 0103/49L-QS
+25/3/2024, 18:50:03 - Product created on Plytix: 0103/49L-SN
+25/3/2024, 18:50:04 - Product created on Plytix: 0103/49L.ESP-CR
+25/3/2024, 18:50:04 - Error posting new products on response: Too many requests, retry after 524 milliseconds 0103/51
+25/3/2024, 18:50:04 - Error posting new products on response: Too many requests, retry after 100 milliseconds 0103/56
+25/3/2024, 18:50:05 - Product created on Plytix: 0103/57-AO
+25/3/2024, 18:50:05 - Product created on Plytix: 0103/57-BC
+25/3/2024, 18:50:06 - Product created on Plytix: 0103/57-BO
+25/3/2024, 18:50:06 - Product created on Plytix: 0103/57-CO
+25/3/2024, 18:50:07 - Product created on Plytix: 0103/57-CR
+25/3/2024, 18:50:07 - Product created on Plytix: 0103/57-GC
+25/3/2024, 18:50:08 - Product created on Plytix: 0103/57-GL
+25/3/2024, 18:50:08 - Product created on Plytix: 0103/57-NG
+25/3/2024, 18:50:09 - Product created on Plytix: 0103/57-PE
+25/3/2024, 18:50:09 - Product created on Plytix: 0103/57CER-GL
+25/3/2024, 18:50:10 - Product created on Plytix: 0103/57P-BC
+25/3/2024, 18:50:10 - Product created on Plytix: 0103/57P-BO
+25/3/2024, 18:50:11 - Product created on Plytix: 0103/57P-CO
+25/3/2024, 18:50:11 - Product created on Plytix: 0103/57P-CR
+25/3/2024, 18:50:12 - Product created on Plytix: 0103/57P-GL
+25/3/2024, 18:50:12 - Product created on Plytix: 0103/57P-ST
+25/3/2024, 18:50:13 - Product created on Plytix: 0103/59-CN
+25/3/2024, 18:50:13 - Product created on Plytix: 0103/59-CR
+25/3/2024, 18:50:14 - Product created on Plytix: 0103/59-MB
+25/3/2024, 18:50:14 - Product created on Plytix: 0103/59-MW
+25/3/2024, 18:50:15 - Error posting new products on response: Too many requests, retry after 340 milliseconds 0103/59-SN
+25/3/2024, 18:50:15 - Product created on Plytix: 0103/59-ST
+25/3/2024, 18:50:15 - Product created on Plytix: 0103/59L-CN
+25/3/2024, 18:50:16 - Product created on Plytix: 0103/59L-CR
+25/3/2024, 18:50:16 - Product created on Plytix: 0103/59L-MB
+25/3/2024, 18:50:17 - Product created on Plytix: 0103/59L-MW
+25/3/2024, 18:50:17 - Product created on Plytix: 0103/59L-SN
+25/3/2024, 18:50:18 - Product created on Plytix: 0103/59L-ST
+25/3/2024, 18:50:18 - Product created on Plytix: 0103/61
+25/3/2024, 18:50:19 - Product created on Plytix: 0103/61N-CR
+25/3/2024, 18:50:19 - Product created on Plytix: 0103/61P
+25/3/2024, 18:50:20 - Product created on Plytix: 0103/62-CO
+25/3/2024, 18:50:20 - Product created on Plytix: 0103/62-QS
+25/3/2024, 18:50:21 - Product created on Plytix: 0103/62-ST
+25/3/2024, 18:50:21 - Product created on Plytix: 0103/62ESP-CR
+25/3/2024, 18:50:22 - Product created on Plytix: 0103/62L-CO
+25/3/2024, 18:50:23 - Product created on Plytix: 0103/62L-QS
+25/3/2024, 18:50:23 - Product created on Plytix: 0103/62L-ST
+25/3/2024, 18:50:24 - Product created on Plytix: 0103/62V-CR
+25/3/2024, 18:50:24 - Product created on Plytix: 0103/63
+25/3/2024, 18:50:25 - Product created on Plytix: 0103/63P-CR
+25/3/2024, 18:50:25 - Product created on Plytix: 0103/64-CO
+25/3/2024, 18:50:26 - Product created on Plytix: 0103/64-CR
+25/3/2024, 18:50:26 - Product created on Plytix: 0103/64-FB
+25/3/2024, 18:50:27 - Product created on Plytix: 0103/64-QS
+25/3/2024, 18:50:27 - Product created on Plytix: 0103/64-QSO
+25/3/2024, 18:50:28 - Product created on Plytix: 0103/64-STC
+25/3/2024, 18:50:28 - Product created on Plytix: 0103/64L-CO
+25/3/2024, 18:50:29 - Product created on Plytix: 0103/64L-CR
+25/3/2024, 18:50:29 - Product created on Plytix: 0103/64L-QS
+25/3/2024, 18:50:30 - Product created on Plytix: 0103/64L-QSO
+25/3/2024, 18:50:30 - Product created on Plytix: 0103/64L-STC
+25/3/2024, 18:50:30 - Product created on Plytix: 0103/64V-CO
+25/3/2024, 18:50:31 - Product created on Plytix: 0103/64V-CR
+25/3/2024, 18:50:31 - Product created on Plytix: 0103/64V-QS
+25/3/2024, 18:50:32 - Product created on Plytix: 0103/64V-QSO
+25/3/2024, 18:50:32 - Product created on Plytix: 0103/64V-STC
+25/3/2024, 18:50:33 - Product created on Plytix: 0103/65
+25/3/2024, 18:50:33 - Product created on Plytix: 0103/68-CO
+25/3/2024, 18:50:34 - Product created on Plytix: 0103/68-CR
+25/3/2024, 18:50:34 - Product created on Plytix: 0103/68-LT
+25/3/2024, 18:50:35 - Error posting new products on response: Too many requests, retry after 592 milliseconds 0103/68-PO
+25/3/2024, 18:50:35 - Error posting new products on response: Too many requests, retry after 173 milliseconds 0103/68V-CR
+25/3/2024, 18:50:35 - Product created on Plytix: 0103/68V-PO
+25/3/2024, 18:50:36 - Product created on Plytix: 0103/69-CO
+25/3/2024, 18:50:36 - Product created on Plytix: 0103/69-CR
+25/3/2024, 18:50:37 - Product created on Plytix: 0103/69-LT
+25/3/2024, 18:50:37 - Product created on Plytix: 0103/69-PO
+25/3/2024, 18:50:38 - Product created on Plytix: 0103/69.17.0-PO
+25/3/2024, 18:50:38 - Product created on Plytix: 0103/70-CO
+25/3/2024, 18:50:39 - Product created on Plytix: 0103/70-CR
+25/3/2024, 18:50:39 - Product created on Plytix: 0103/70-LC
+25/3/2024, 18:50:40 - Product created on Plytix: 0103/70-PO
+25/3/2024, 18:50:40 - Product created on Plytix: 0103/72-AO
+25/3/2024, 18:50:41 - Product created on Plytix: 0103/72-BC
+25/3/2024, 18:50:41 - Product created on Plytix: 0103/72-BO
+25/3/2024, 18:50:41 - Product created on Plytix: 0103/72-CO
+25/3/2024, 18:50:42 - Product created on Plytix: 0103/72-CR
+25/3/2024, 18:50:42 - Product created on Plytix: 0103/72-GC
+25/3/2024, 18:50:43 - Product created on Plytix: 0103/72-GL
+25/3/2024, 18:50:43 - Product created on Plytix: 0103/72-NG
+25/3/2024, 18:50:45 - Product created on Plytix: 0103/72-OR
+25/3/2024, 18:50:45 - Product created on Plytix: 0103/72-PE
+25/3/2024, 18:50:46 - Product created on Plytix: 0103/72-PO
+25/3/2024, 18:50:46 - Product created on Plytix: 0103/72-RO
+25/3/2024, 18:50:47 - Product created on Plytix: 0103/72.ESP-CR
+25/3/2024, 18:50:47 - Product created on Plytix: 0103/72S-CO
+25/3/2024, 18:50:47 - Product created on Plytix: 0103/73
+25/3/2024, 18:50:48 - Product created on Plytix: 0103/73-AN
+25/3/2024, 18:50:48 - Product created on Plytix: 0103/74
+25/3/2024, 18:50:49 - Product created on Plytix: 0103/75
+25/3/2024, 18:50:50 - Product created on Plytix: 0103/76
+25/3/2024, 18:50:50 - Product created on Plytix: 0103/82-BCB
+25/3/2024, 18:50:51 - Product created on Plytix: 0103/82-BOB
+25/3/2024, 18:50:51 - Product created on Plytix: 0103/82-CCB
+25/3/2024, 18:50:52 - Product created on Plytix: 0103/82-COB
+25/3/2024, 18:50:52 - Product created on Plytix: 0103/82-OOB
+25/3/2024, 18:50:53 - Product created on Plytix: 0103/83-QL
+25/3/2024, 18:50:53 - Product created on Plytix: 0103/83-QS
+25/3/2024, 18:50:53 - Product created on Plytix: 0103/83ESP-COP
+25/3/2024, 18:50:54 - Product created on Plytix: 0103/83ESP-CR
+25/3/2024, 18:50:54 - Product created on Plytix: 0103/83ESP-OP
+25/3/2024, 18:50:55 - Product created on Plytix: 0103/83L-CR
+25/3/2024, 18:50:55 - Error posting new products on response: Too many requests, retry after 153 milliseconds 0103/83L-QL
+25/3/2024, 18:50:56 - Product created on Plytix: 0103/83L-QS
+25/3/2024, 18:50:56 - Product created on Plytix: 0103/83L.ESP-CCB
+25/3/2024, 18:50:57 - Product created on Plytix: 0103/83L.V-CCB
+25/3/2024, 18:50:57 - Product created on Plytix: 0103/83V-CR
+25/3/2024, 18:50:58 - Product created on Plytix: 0103/83V-QL
+25/3/2024, 18:50:58 - Product created on Plytix: 0103/83V-QS
+25/3/2024, 18:50:59 - Product created on Plytix: 0103/84-BC
+25/3/2024, 18:50:59 - Product created on Plytix: 0103/84-BO
+25/3/2024, 18:51:00 - Product created on Plytix: 0103/84-CO
+25/3/2024, 18:51:00 - Product created on Plytix: 0103/84-CR
+25/3/2024, 18:51:01 - Product created on Plytix: 0103/84-GL
+25/3/2024, 18:51:01 - Product created on Plytix: 0103/84-LC
+25/3/2024, 18:51:01 - Product created on Plytix: 0103/84-PC
+25/3/2024, 18:51:02 - Product created on Plytix: 0103/84-PE
+25/3/2024, 18:51:02 - Product created on Plytix: 0103/84-PO
+25/3/2024, 18:51:03 - Product created on Plytix: 0103/84ESP-LC
+25/3/2024, 18:51:03 - Product created on Plytix: 0103/84V-CO
+25/3/2024, 18:51:04 - Product created on Plytix: 0103/84V-CR
+25/3/2024, 18:51:05 - Product created on Plytix: 0103/84V-LC
+25/3/2024, 18:51:05 - Product created on Plytix: 0103/84V-PO
+25/3/2024, 18:51:06 - Error posting new products on response: Too many requests, retry after 32 milliseconds 0103/85-CR
+25/3/2024, 18:51:06 - Product created on Plytix: 0103/85-NGM
+25/3/2024, 18:51:07 - Product created on Plytix: 0103/85-ST
+25/3/2024, 18:51:07 - Product created on Plytix: 0103/85ESP-CR
+25/3/2024, 18:51:08 - Product created on Plytix: 0103/85L-CR
+25/3/2024, 18:51:08 - Product created on Plytix: 0103/85L-ST
+25/3/2024, 18:51:09 - Product created on Plytix: 0103/85L.ESP-CR
+25/3/2024, 18:51:09 - Product created on Plytix: 0103/85V-CR
+25/3/2024, 18:51:09 - Product created on Plytix: 0103/85V-ST
+25/3/2024, 18:51:10 - Product created on Plytix: 0103/86-CCB
+25/3/2024, 18:51:10 - Product created on Plytix: 0103/86-COB
+25/3/2024, 18:51:11 - Product created on Plytix: 0103/86-OOB
+25/3/2024, 18:51:11 - Product created on Plytix: 0103/86ESP-COB
+25/3/2024, 18:51:12 - Product created on Plytix: 0103/87-LT
+25/3/2024, 18:51:12 - Product created on Plytix: 0103/87-QS
+25/3/2024, 18:51:13 - Product created on Plytix: 0103/87-ST
+25/3/2024, 18:51:13 - Product created on Plytix: 0103/87ESP-CR
+25/3/2024, 18:51:14 - Product created on Plytix: 0103/87ESP2-CR
+25/3/2024, 18:51:14 - Product created on Plytix: 0103/87V-CR
+25/3/2024, 18:51:15 - Product created on Plytix: 0103/87V-ST
+25/3/2024, 18:51:15 - Product created on Plytix: 0103/88-CR
+25/3/2024, 18:51:16 - Error posting new products on response: Too many requests, retry after 646 milliseconds 0103/88-ST
+25/3/2024, 18:51:16 - Error posting new products on response: Too many requests, retry after 226 milliseconds 0103/88.0.ESP-CR
+25/3/2024, 18:51:16 - Product created on Plytix: 0103/88ESP-CR
+25/3/2024, 18:51:18 - Product created on Plytix: 0103/88ESP-ST
+25/3/2024, 18:51:18 - Product created on Plytix: 0103/B1-CR
+25/3/2024, 18:51:18 - Product created on Plytix: 0103/B1ESP-CR
+25/3/2024, 18:51:19 - Product created on Plytix: 0103/B2-CR
+25/3/2024, 18:51:19 - Product created on Plytix: 0103/B3-CR
+25/3/2024, 18:51:20 - Product created on Plytix: 0103/B4-CR
+25/3/2024, 18:51:20 - Product created on Plytix: 0103/C8-CR
+25/3/2024, 18:51:21 - Product created on Plytix: 0103/C8A-CR
+25/3/2024, 18:51:21 - Product created on Plytix: 0103/D3-CR
+25/3/2024, 18:51:22 - Product created on Plytix: 0103/D4-CR
+25/3/2024, 18:51:22 - Product created on Plytix: 0103/D5-CR
+25/3/2024, 18:51:23 - Product created on Plytix: 0103/E1-CR
+25/3/2024, 18:51:23 - Product created on Plytix: 0103/E17-CR
+25/3/2024, 18:51:24 - Product created on Plytix: 0103/E2-CR
+25/3/2024, 18:51:24 - Product created on Plytix: 0103/E2P-CR
+25/3/2024, 18:51:25 - Product created on Plytix: 0103/E3-CR
+25/3/2024, 18:51:25 - Product created on Plytix: 0103/E4-CR
+25/3/2024, 18:51:26 - Product created on Plytix: 0103/E5-CR
+25/3/2024, 18:51:26 - Product created on Plytix: 0103/P-CR
+25/3/2024, 18:51:27 - Product created on Plytix: 0103/S-CR
+25/3/2024, 18:51:27 - Product created on Plytix: 0103ESP/85-CR
+25/3/2024, 18:51:28 - Product created on Plytix: 0103ESP/87-CR
+25/3/2024, 18:51:28 - Product created on Plytix: 0103ESP/88-CR
+25/3/2024, 18:51:28 - Product created on Plytix: 0103R/85V-CR
+25/3/2024, 18:51:29 - Product created on Plytix: 0104
+25/3/2024, 18:51:29 - Product created on Plytix: 0104.01
+25/3/2024, 18:51:30 - Product created on Plytix: 0104.01-BO
+25/3/2024, 18:51:30 - Product created on Plytix: 0104.01-CO
+25/3/2024, 18:51:31 - Product created on Plytix: 0104.01-CR
+25/3/2024, 18:51:31 - Product created on Plytix: 0104.01-NO
+25/3/2024, 18:51:32 - Product created on Plytix: 0104.01-OR
+25/3/2024, 18:51:32 - Product created on Plytix: 0104.02
+25/3/2024, 18:51:33 - Product created on Plytix: 0104.03-BL
+25/3/2024, 18:51:33 - Product created on Plytix: 0104.03-CO
+25/3/2024, 18:51:34 - Product created on Plytix: 0104.03-CR
+25/3/2024, 18:51:35 - Product created on Plytix: 0104.03-OR
+25/3/2024, 18:51:36 - Product created on Plytix: 0104.03-PO
+25/3/2024, 18:51:36 - Product created on Plytix: 0106
+25/3/2024, 18:51:37 - Product created on Plytix: 0106-BL
+25/3/2024, 18:51:37 - Product created on Plytix: 0106-CA
+25/3/2024, 18:51:38 - Product created on Plytix: 0106-MA
+25/3/2024, 18:51:38 - Product created on Plytix: 0106-OR
+25/3/2024, 18:58:23 - Synchronization between SAP and Plytix Started.
+25/3/2024, 18:58:32 - Total Ferrum products: 3549
+25/3/2024, 18:58:32 - Active Ferrum products: 1036
+25/3/2024, 18:59:01 - Total FV products: 14991
+25/3/2024, 18:59:01 - Active FV products: 7405
+25/3/2024, 18:59:14 - Total skus from SAP: 8441
+25/3/2024, 18:59:14 - Total skus from Plytix: 3730
+25/3/2024, 18:59:15 - Total of No matching SKU from SAP/Plytix: 5967
+25/3/2024, 18:59:15 - Total of matching SKU from SAP/Plytix fv + ferrum: 2474
+25/3/2024, 18:59:15 - New materials/Products on SAP in comparation to Plytix: 5967
+25/3/2024, 18:59:15 - Error posting new products on response: A product with the same sku already exists ACO-PE-012-BL
+25/3/2024, 18:59:16 - Error posting new products on response: A product with the same sku already exists AFX-JG-011-BL
+25/3/2024, 18:59:17 - Error posting new products on response: A product with the same sku already exists ARM-BH-140-AL
+25/3/2024, 18:59:17 - Error posting new products on response: A product with the same sku already exists ATU-TP-003-BL
+25/3/2024, 18:59:18 - Error posting new products on response: A product with the same sku already exists ATU-TP-005-BL
+25/3/2024, 18:59:18 - Error posting new products on response: A product with the same sku already exists ESP-TP-004-BL
+25/3/2024, 18:59:19 - Error posting new products on response: A product with the same sku already exists H-CAR-17-06-B-D
+25/3/2024, 18:59:19 - Error posting new products on response: A product with the same sku already exists H-CAR-17-06-B-I
+25/3/2024, 18:59:20 - Error posting new products on response: A product with the same sku already exists REP-TD-024-DO
+25/3/2024, 18:59:20 - Error posting new products on response: A product with the same sku already exists RON-ET-002-BL
+25/3/2024, 18:59:20 - Error posting new products on response: A product with the same sku already exists TEM-DP-001-BL
+25/3/2024, 18:59:21 - Error posting new products on response: A product with the same sku already exists TFN-TP-001-BL
+25/3/2024, 18:59:21 - Error posting new products on response: A product with the same sku already exists TFN-TP-002-BL
+25/3/2024, 18:59:22 - Error posting new products on response: A product with the same sku already exists TFN-TP-003-BL
+25/3/2024, 18:59:22 - Error posting new products on response: A product with the same sku already exists TFN-TP-004-BL
+25/3/2024, 18:59:23 - Error posting new products on response: A product with the same sku already exists TFN-TP-005-BL
+25/3/2024, 18:59:23 - Error posting new products on response: A product with the same sku already exists TFN-TP-006-BL
+25/3/2024, 18:59:23 - Error posting new products on response: A product with the same sku already exists TFN-TP-008-BL
+25/3/2024, 18:59:24 - Error posting new products on response: A product with the same sku already exists TFN-TP-012-BL
+25/3/2024, 18:59:24 - Error posting new products on response: A product with the same sku already exists TFN-TP-013-BL
+25/3/2024, 18:59:25 - Error posting new products on response: Too many requests, retry after 563 milliseconds TFN-TP-014-BL
+25/3/2024, 18:59:25 - Error posting new products on response: Too many requests, retry after 148 milliseconds TFN-TP-015-BL
+25/3/2024, 18:59:26 - Error posting new products on response: A product with the same sku already exists TFN-TP-016-BL
+25/3/2024, 18:59:26 - Error posting new products on response: A product with the same sku already exists TFN-TP-018-BL
+25/3/2024, 18:59:26 - Error posting new products on response: A product with the same sku already exists TOR-BH-067-BL
+25/3/2024, 18:59:27 - Error posting new products on response: A product with the same sku already exists TRE-DP-004-BL
+25/3/2024, 18:59:28 - Error posting new products on response: A product with the same sku already exists V-NIZ-18-08-D-D
+25/3/2024, 18:59:28 - Error posting new products on response: A product with the same sku already exists 0013.04/56
+25/3/2024, 18:59:29 - Error posting new products on response: A product with the same sku already exists 0013.05/56
+25/3/2024, 18:59:29 - Error posting new products on response: A product with the same sku already exists 0013.05/63
+25/3/2024, 18:59:29 - Error posting new products on response: A product with the same sku already exists 0013.06/56
+25/3/2024, 18:59:30 - Error posting new products on response: A product with the same sku already exists 0013.06/63
+25/3/2024, 18:59:30 - Error posting new products on response: A product with the same sku already exists 0013.07/56
+25/3/2024, 18:59:31 - Error posting new products on response: A product with the same sku already exists 0013.07/63
+25/3/2024, 18:59:31 - Error posting new products on response: A product with the same sku already exists 0013.08/56
+25/3/2024, 18:59:32 - Error posting new products on response: A product with the same sku already exists 0014.00/56
+25/3/2024, 18:59:32 - Error posting new products on response: A product with the same sku already exists 0015.00/44-BO
+25/3/2024, 18:59:32 - Error posting new products on response: A product with the same sku already exists 0017.05/63
+25/3/2024, 18:59:33 - Error posting new products on response: A product with the same sku already exists 0017.06/63
+25/3/2024, 18:59:33 - Error posting new products on response: A product with the same sku already exists 0017.11/63
+25/3/2024, 18:59:34 - Error posting new products on response: A product with the same sku already exists 0017.12/63
+25/3/2024, 18:59:34 - Product created on Plytix: 0060.01
+25/3/2024, 18:59:35 - Error posting new products on response: Too many requests, retry after 966 milliseconds 0060.02
+25/3/2024, 18:59:35 - Error posting new products on response: Too many requests, retry after 552 milliseconds 0103.01/20
+25/3/2024, 18:59:36 - Error posting new products on response: Too many requests, retry after 74 milliseconds 0103.01/20P-CR
+25/3/2024, 18:59:36 - Error posting new products on response: A product with the same sku already exists 0103.01/25
+25/3/2024, 18:59:36 - Error posting new products on response: A product with the same sku already exists 0103.01/25P-CR
+25/3/2024, 18:59:37 - Error posting new products on response: A product with the same sku already exists 0103.01/39-CR
+25/3/2024, 18:59:37 - Error posting new products on response: A product with the same sku already exists 0103.01/44
+25/3/2024, 18:59:38 - Error posting new products on response: A product with the same sku already exists 0103.01/59L-CR
+25/3/2024, 18:59:39 - Error posting new products on response: A product with the same sku already exists 0103.01/61
+25/3/2024, 18:59:39 - Error posting new products on response: A product with the same sku already exists 0103.01/63
+25/3/2024, 18:59:39 - Error posting new products on response: A product with the same sku already exists 0103.01/65
+25/3/2024, 18:59:40 - Error posting new products on response: A product with the same sku already exists 0103.01/73
+25/3/2024, 18:59:40 - Error posting new products on response: A product with the same sku already exists 0103.01/74
+25/3/2024, 18:59:41 - Error posting new products on response: A product with the same sku already exists 0103.01/75
+25/3/2024, 18:59:41 - Error posting new products on response: A product with the same sku already exists 0103.01/84-CR
+25/3/2024, 18:59:42 - Error posting new products on response: A product with the same sku already exists 0103.01/85-CR
+25/3/2024, 18:59:42 - Error posting new products on response: A product with the same sku already exists 0103.01R/85-CR
+25/3/2024, 18:59:43 - Error posting new products on response: A product with the same sku already exists 0103.02/46-OR
+25/3/2024, 18:59:43 - Error posting new products on response: A product with the same sku already exists 0103.02/59-CR
+25/3/2024, 18:59:43 - Error posting new products on response: A product with the same sku already exists 0103.02/85L-CR
+25/3/2024, 18:59:44 - Product created on Plytix: 0103.02/87-CR
+25/3/2024, 18:59:44 - Error posting new products on response: A product with the same sku already exists 0103.02R/85L-CR
+25/3/2024, 18:59:45 - Error posting new products on response: A product with the same sku already exists 0103.03/39-CR
+25/3/2024, 18:59:45 - Error posting new products on response: Too many requests, retry after 751 milliseconds 0103.03/83-CR
+25/3/2024, 18:59:46 - Error posting new products on response: Too many requests, retry after 323 milliseconds 0103/01-BO
+25/3/2024, 18:59:46 - Error posting new products on response: A product with the same sku already exists 0103/01-CO
+25/3/2024, 18:59:46 - Error posting new products on response: A product with the same sku already exists 0103/15-BL
+25/3/2024, 18:59:47 - Error posting new products on response: A product with the same sku already exists 0103/16-BCB
+25/3/2024, 18:59:47 - Error posting new products on response: A product with the same sku already exists 0103/16-BOB
+25/3/2024, 18:59:48 - Error posting new products on response: A product with the same sku already exists 0103/16-CCB
+25/3/2024, 18:59:49 - Error posting new products on response: A product with the same sku already exists 0103/16-COC
+25/3/2024, 18:59:49 - Error posting new products on response: A product with the same sku already exists 0103/16-CR
+25/3/2024, 18:59:49 - Error posting new products on response: A product with the same sku already exists 0103/16-QS
+25/3/2024, 18:59:50 - Error posting new products on response: A product with the same sku already exists 0103/16-ST
+25/3/2024, 18:59:50 - Error posting new products on response: A product with the same sku already exists 0103/18-CR
+25/3/2024, 18:59:51 - Error posting new products on response: A product with the same sku already exists 0103/20
+25/3/2024, 19:13:50 - Synchronization between SAP and Plytix Started.
+25/3/2024, 19:13:58 - Total Ferrum products: 3549
+25/3/2024, 19:13:58 - Active Ferrum products: 1036
+25/3/2024, 19:14:25 - Total FV products: 14991
+25/3/2024, 19:14:25 - Active FV products: 7405

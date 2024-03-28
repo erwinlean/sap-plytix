@@ -1,4 +1,5 @@
 "use strict";
+
 /**
  *  Script requirements:
  *  Install Node.js version used 20.11.1
@@ -10,14 +11,18 @@
 const startTime = new Date();
 
 // Functions and variables needed
-const { getProducts, urls } = require("./sap/getProducts");
-const getAllProducts = require("./plytix/getProducts");
-const getPlytixToken = require("./plytix/auth");
-const postNewProducts = require("./plytix/postProducts");
-const getPlytixTokenTest = require("./plytix/testauth");
-const comparasion = require("./dataProcessing/dataComparison");
-const createLog = require("./logs/logs");
-const checkMemory = require("./CPU/memory");
+const {
+    getProducts,
+    urls,
+    getAllProducts,
+    getPlytixToken,
+    postNewProducts,
+    getPlytixTokenTest,
+    comparasion,
+    multiplePosts,
+    createLog,
+    checkMemory
+} = require("./config");
 
 /**
  *  Performs synchronization between SAP and Plytix.
@@ -28,26 +33,32 @@ const checkMemory = require("./CPU/memory");
 async function main() {
     try {
 
-        // SAP
+        createLog("Synchronization between SAP and Plytix Started.");
+
+        // Get the producs from SAP
         const sapProducts = [];
         for (const urlInfo of urls) {
             sapProducts.push(await getProducts(urlInfo))
         };
 
-        // Plytix
+        // Get the produts from Plytix
         const token = await getPlytixToken();
         const pimProducts = await getAllProducts(token);
 
         // Data process
         const newProductsData = await comparasion(pimProducts, sapProducts);
 
-        // Post new product from SAP on the PIM
+        // Post new product from SAP on the PIM (TEST ENVIRONMENT USING NEW TOKEN NOT PROD ENV).
         const testToken = await getPlytixTokenTest(); // This token will be remove in prod, use just token
-        const postPromises = newProductsData.map(productData => postNewProducts(testToken, productData));
-        await Promise.all(postPromises);
 
-        // End and log save.
-        createLog("Synchronization between SAP and Plytix ended");
+        // Post new products
+        // Diferent handle if there are more of 10 products, because Request limit of the API
+        if(newProductsData.length <= 10){
+            newProductsData.map(async productData => await postNewProducts(testToken, productData));
+        }else{
+            // Handle the create products if there are more than 10 products
+            await multiplePosts(postNewProducts, testToken, newProductsData);
+        };
 
         // Check memory usage
         checkMemory();
@@ -57,13 +68,14 @@ async function main() {
         const elapsedTime = endTime - startTime;
         console.log('Elapsed Time (ms):', elapsedTime);
 
-        return console.log("Synchronization between SAP and Plytix ended.");
+        // End script and log save.
+        return createLog("Synchronization between SAP and Plytix ended");
     } catch (err) {
         createLog("Error main: " + err);
-        console.log("Error main:", err);
+            console.log("Error main:", err);
         throw new Error(err);
     };
 };
 
-// Init Synchronization
-main();
+// init Synchronization
+main ();
