@@ -1,0 +1,16 @@
+{
+  "name": "sync-sap-plytix",
+  "version": "1.0.0",
+  "description": "Sync products from ERP (SAP) to PIM (Plytix)",
+  "main": "main.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.6.1",
+    "os-utils": "^0.0.14"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

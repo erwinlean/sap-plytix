@@ -1,0 +1,12 @@
+Script requirements:
+Install Node.js version used 20.11.1
+npm install
+
+Automatization with cron:
+crontab -e
+sudo 0 4 * * * /usr/bin/node /route-to/main.js >> /route-to/logs/log.txt 2>&1 && echo "$(date +"\%Y-\%m-\%d \%H:\%M:\%S") - Cron job started" >> /route-to/logs/log.txt
+
+Manual execution, go to the folder and execute:
+- unzip
+- npm install
+- node main.js
