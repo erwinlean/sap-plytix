@@ -49,7 +49,10 @@ const updateProductsData = async (accessToken, id, sapData) => {
             return data;
         } else {
             createLog("Error updating attributes on response: " + data.error.msg + " " + sapData.Material);
+            return;
         }
+
+        return;
     } catch (err) {
         createLog("Error updating attributes: " + err.message);
         console.log("Error updating attributes:" + err.message);

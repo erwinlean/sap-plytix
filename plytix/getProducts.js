@@ -12,9 +12,6 @@ const getAllProducts = async (token) => {
   const url_get_products = "https://pim.plytix.com/api/v1/products/search";
 
   try {
-    const myHeaders = new Headers();
-    myHeaders.append("Authorization", `Bearer ${token}`);
-    myHeaders.append("Content-Type", "application/json");
 
     let allProducts = [];
     let currentPage = 1;
@@ -35,7 +32,10 @@ const getAllProducts = async (token) => {
 
       const requestOptions = {
         method: "POST",
-        headers: myHeaders,
+        headers: {
+          "Authorization": `Bearer ${token}`,
+          "Content-Type": "application/json"
+        },
         body: JSON.stringify(requestBody),
         redirect: "follow"
       };

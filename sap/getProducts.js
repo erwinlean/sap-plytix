@@ -9,7 +9,7 @@ const isStatusValid = require("../utils/validDate");
 const urls = [{
   url: "",
   name: "Ferrum"
-},{
+}, {
   url: "",
   name: "FV"
 }];
@@ -22,8 +22,8 @@ const urls = [{
 async function getProducts(urlInfo) {
   const { url, name } = urlInfo;
   // Call credentials from .env file
-  const username = "";
-  const password = "";
+  const username = "xnetsapcalidad@fl-0.fv.com.ar";
+  const password = "pass: Sec%tres.23";
 
   try {
     const response = await fetch(url, {
@@ -42,8 +42,8 @@ async function getProducts(urlInfo) {
         const product = products.EtDatosMaterial[i];
 
         if (name === "FV") {
-          // First filter for FV status code:
-            if ((product.StGralMaterial === "Z4" || (product.StOvMaterial === "Z4" && product.StGralMaterial === "") || (product.StOvMaterial === "" && product.StGralMaterial === "")) && isStatusValid(product.FechaStGral)) {
+          // First filter for FV status code (z4, z5, zc, z2 and emply meaning "")
+          if ((product.StGralMaterial === "Z4" || (product.StOvMaterial === "Z4" && product.StGralMaterial === "") || (product.StOvMaterial === "" && product.StGralMaterial === "") || (product.StOvMaterial === "ZC" && product.StGralMaterial === "") || (product.StOvMaterial === "Z5" && product.StGralMaterial === "") || (product.StOvMaterial === "Z2" && product.StGralMaterial === "")) && isStatusValid(product.FechaStGral)) {
             // Second filter for FV, by categories
             if (product.Categoria !== "DA" && product.Categoria !== "OT") {
               // Third filter for Ferrum, By stable (Marcabaja) & bad quality (Calidad)

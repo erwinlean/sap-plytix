@@ -14,13 +14,13 @@ const url = "https://auth.plytix.com/auth/api/get-token";
  */
 const getPlytixToken = async () => {
     try {
-        const myHeaders = new Headers();
-        myHeaders.append("Authorization", `Bearer ${apiKey}`);
-        myHeaders.append("Content-Type", "application/json");
 
         const requestOptions = {
             method: 'POST',
-            headers: myHeaders,
+            headers: {
+                "Authorization": `Bearer ${apiKey}`,
+                "Content-Type" :"application/json"
+            },
             body: JSON.stringify({
                 api_key: apiKey,
                 api_password: apiPassword
