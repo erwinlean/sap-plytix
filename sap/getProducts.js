@@ -22,8 +22,8 @@ const urls = [{
 async function getProducts(urlInfo) {
   const { url, name } = urlInfo;
   // Call credentials from .env file
-  const username = "xnetsapcalidad@fl-0.fv.com.ar";
-  const password = "pass: Sec%tres.23";
+  const username = "user";
+  const password = "pass";
 
   try {
     const response = await fetch(url, {
