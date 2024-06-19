@@ -15,18 +15,37 @@ const postNewProducts = async (accessToken, sapData) => {
     try {
         let productData;
         if(sapData.Categories === "Fv"){
-            productData = {
-                sku: sapData.Material,
-                attributes: {
-                    fv_ean: sapData.Ean || "",
-                    fv_nombre_sap: sapData.Descripcion || "",
-                    fv_marca: "FV"
-                },
-                categories: [{ 
-                    id: "651b17a155f5d6567db38f7d"
-                }],
-                status: "Draft"
-            };
+            // Divide Fv from Novum
+            if(sapData.Material.toLowerCase().startsWith("fr")){
+                console.log("novum")
+                console.log(sapData.Material)
+                productData = {
+                    sku: sapData.Material,
+                    attributes: {
+                        fv_ean: sapData.Ean || "",
+                        fv_nombre_sap: sapData.Descripcion || "",
+                        fv_marca: "Novum"
+                    },
+                    categories: [{ 
+                        id: "655381c2a2faefdcac537e43"
+                    }],
+                    status: "Draft"
+                };
+            }else{
+                console.log("else")
+                productData = {
+                    sku: sapData.Material,
+                    attributes: {
+                        fv_ean: sapData.Ean || "",
+                        fv_nombre_sap: sapData.Descripcion || "",
+                        fv_marca: "FV"
+                    },
+                    categories: [{ 
+                        id: "651b17a155f5d6567db38f7d"
+                    }],
+                    status: "Draft"
+                };
+            }
         } else if (sapData.Categories === "Ferrum"){
             productData = {
                 sku: sapData.Material,
@@ -61,6 +80,8 @@ const postNewProducts = async (accessToken, sapData) => {
         } else {
             createLog("Error posting new products on response: " + data.error.msg + " " + sapData.Material);
         }
+
+        return;
     } catch (err) {
         createLog("Error posting new products: " + err.message);
         console.log("Error posting new products:" + err.message);

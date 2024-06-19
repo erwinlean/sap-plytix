@@ -18,18 +18,27 @@ const updateProductsData = async (accessToken, id, sapData) => {
     try {
         let productData;
         if(sapData.Categories === "Fv"){
-            productData = {
-                attributes: {
-                    fv_nombre_sap: sapData.Descripcion || "",
-                }
-            };
+            // Divide Fv and Novum
+            if(sapData.Material.toLowerCase().startsWith("fr")){
+                productData = {
+                    attributes: {
+                        fv_nombre_sap: sapData.Descripcion || "",
+                    }
+                };
+            }else{
+                productData = {
+                    attributes: {
+                        fv_nombre_sap: sapData.Descripcion || "",
+                    }
+                };
+            }
         } else if (sapData.Categories === "Ferrum"){
             productData = {
                 attributes: {
                     fe_nombre_sap: sapData.Descripcion || "",
                 }
             };
-        };
+        }
 
         // Post request
         const requestOptions = {
